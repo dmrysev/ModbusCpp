@@ -1,0 +1,13 @@
+Protocol;Register type: normal or fast (group 52);Time level (par 50.21);Speed (kbit/s);Measured time per one parameter read (milliseconds)
+TCP;normal;normal;auto;9
+TCP;normal;very fast or monitoring;auto;4
+TCP;fast;any;auto;0.5
+RTU;normal;normal;9.6;39
+RTU;normal;very fast;9.6;32
+RTU;normal;normal;230.4;16
+RTU;normal;very fast;19.2;20
+RTU;normal;very fast;> 19.2;does not work
+RTU;fast;normal;9.6;32
+RTU;fast;very fast or monitoring;9.6;32
+RTU;fast;normal;19.2;16
+RTU;fast;normal;> 19.2;does not work
